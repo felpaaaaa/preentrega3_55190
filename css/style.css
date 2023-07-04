@@ -122,25 +122,13 @@ main {
       main h1 div div {
         text-align: center;
         width: 600px; }
-        main h1 div div h2 h3 img {
-          height: 900px;
-          width: 600px; }
 
 /* Media Queries*/
 /* Footer */
-div img {
-  width: 40px;
-  height: 40px; }
-  div img p {
-    margin-right: 10px;
-    margin-bottom: 40px;
-    color: black; }
-  div img div img {
-    width: 40px;
-    height: 40px; }
-  div img div img {
-    width: 40px;
-    height: 40px; }
+div p {
+  margin-right: 10px;
+  margin-bottom: 40px;
+  color: black; }
 
 .footer__index {
   display: flex;
@@ -151,7 +139,10 @@ div img {
   height: 100px;
   background-image: linear-gradient(to right, #b5b9c0, #bac8cf, #c1d8d7, #d1e6da, #ebf2db);
   background-repeat: repeat;
-  background-size: contain; }
+  background-size: contain;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
 
 .p__footer {
   margin-right: 10px;
