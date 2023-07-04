@@ -1,0 +1,171 @@
+/* Reset */
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* Typo */
+/* Header */
+body {
+  overflow-x: hidden; }
+  body header nav {
+    background-image: linear-gradient(to left, #727478, #8c9498, #a7b6b5, #c9d7cf, #f3f8e9); }
+    body header nav div div img div ul li {
+      list-style: none; }
+      body header nav div div img div ul li a {
+        text-decoration: none;
+        color: blueviolet; }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 40px; }
+
+.img__index--icon:hover {
+  transform: scale(2, 2);
+  transition: .4s; }
+
+.logo__header {
+  width: 130px;
+  height: 130px; }
+
+/* Main Contacto */
+p {
+  color: black; }
+
+.main__contacto {
+  background-image: url("../images/remera.jpg");
+  background-size: cover;
+  height: 100vh; }
+
+.mb-3, .mb-4 {
+  color: black; }
+
+/* Main FAQs */
+main {
+  background-image: url(https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80);
+  background-repeat: repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 30px;
+  line-height: 60px;
+  height: 750px; }
+  main section h2 {
+    font-size: 30px;
+    color: red;
+    text-decoration: underline; }
+
+/* Main Index*/
+li {
+  list-style: none; }
+  li a {
+    text-decoration: none;
+    color: blueviolet; }
+
+.main__index {
+  background-image: url(https://images.pexels.com/photos/1292115/pexels-photo-1292115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #7d8380; }
+
+.index__grid--container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-self: center; }
+
+/* Main Nosotros*/
+.main__bg--nosotros {
+  background-image: linear-gradient(to right bottom, #d8dce3, #9f9fa4, #69676a, #363435, #000000);
+  height: 80vh; }
+
+.img__nosotros {
+  width: 450px;
+  height: 450px;
+  border-radius: 50% 50% 0px 50%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; }
+
+.p__main--nosotros {
+  color: black;
+  width: 400px;
+  color: #aeec38;
+  background-image: -webkit-linear-gradient(0deg, #aeec38 80%, #24ca19 79%, #94c353 74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.h1__main--nosotros {
+  text-align: center;
+  color: #aeec38;
+  background-image: -webkit-linear-gradient(0deg, #aeec38 80%, #24ca19 79%, #94c353 74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.flex__container--main {
+  display: flex;
+  flex-direction: column; }
+
+/* Main Productos*/
+main {
+  background-image: linear-gradient(to right bottom, #d8dce3, #9f9fa4, #69676a, #363435, #000000); }
+  main h1 {
+    text-align: center;
+    color: #7d8380; }
+    main h1 div {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center; }
+      main h1 div div {
+        text-align: center;
+        width: 600px; }
+        main h1 div div h2 h3 img {
+          height: 900px;
+          width: 600px; }
+
+/* Media Queries*/
+/* Footer */
+div img {
+  width: 40px;
+  height: 40px; }
+  div img p {
+    margin-right: 10px;
+    margin-bottom: 40px;
+    color: black; }
+  div img div img {
+    width: 40px;
+    height: 40px; }
+  div img div img {
+    width: 40px;
+    height: 40px; }
+
+.footer__index {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  height: 100px;
+  background-image: linear-gradient(to right, #b5b9c0, #bac8cf, #c1d8d7, #d1e6da, #ebf2db);
+  background-repeat: repeat;
+  background-size: contain; }
+
+.p__footer {
+  margin-right: 10px;
+  margin-bottom: 40px;
+  color: black; }
+
+.img__index {
+  width: 40px;
+  height: 40px; }
+
+.img__index--ig {
+  width: 40px;
+  height: 40px; }
+
+.img__index--whapp {
+  width: 40px;
+  height: 40px; }

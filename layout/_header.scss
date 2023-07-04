@@ -1,0 +1,45 @@
+body{
+    overflow-x: hidden;
+    header{
+        nav{
+            background-image: linear-gradient(to left, #727478, #8c9498, #a7b6b5, #c9d7cf, #f3f8e9);
+            div{
+                div{
+                    img{
+                        
+            div{
+                    ul{
+                        li{
+                            list-style: none;
+                        a{
+                            text-decoration: none;
+                            color: blueviolet;
+                            }
+                        }
+                    }  
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.img__index--icon:hover {
+    transform: scale(2, 2);
+    transition: .4s; 
+}
+
+.logo__header {
+    width: 130px;
+    height: 130px;
+}
