@@ -1,6 +1,6 @@
 /* Reset */
 * {
-  margin: 0px;
+  margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
@@ -37,7 +37,7 @@ body {
 
 /* Main Contacto */
 p {
-  color: black; }
+  color: white; }
 
 .main__contacto {
   background-image: url("../images/remera.jpg");
@@ -45,10 +45,15 @@ p {
   height: 100vh; }
 
 .mb-3, .mb-4 {
-  color: black; }
+  color: white; }
 
 /* Main FAQs */
-main {
+section h2 {
+  font-size: 30px;
+  color: red;
+  text-decoration: underline; }
+
+.main__faq {
   background-image: url(https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80);
   background-repeat: repeat;
   background-size: cover;
@@ -56,10 +61,6 @@ main {
   padding-top: 30px;
   line-height: 60px;
   height: 750px; }
-  main section h2 {
-    font-size: 30px;
-    color: red;
-    text-decoration: underline; }
 
 /* Main Index*/
 li {
@@ -105,7 +106,8 @@ li {
 .flex__container--main {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  gap: 30px; }
 
 /* Main Productos*/
 main {
