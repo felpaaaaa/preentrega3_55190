@@ -7,6 +7,7 @@
 /* Typo */
 /* Header */
 body {
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -28,8 +29,8 @@ body {
   gap: 40px; }
 
 .img__index--icon:hover {
-  transform: scale(2, 2);
-  transition: .4s; }
+  transform: scale(1.3);
+  transition: 0.4s; }
 
 .logo__header {
   width: 130px;
@@ -37,15 +38,33 @@ body {
 
 /* Main Contacto */
 p {
-  color: white; }
+  color: #7d8380; }
+
+input {
+  width: 100px; }
+
+textarea {
+  width: 300px; }
+
+label {
+  width: 300px; }
 
 .main__contacto {
   background-image: url("../images/remera.jpg");
   background-size: cover;
   height: 100vh; }
 
-.mb-3, .mb-4 {
-  color: white; }
+label {
+  width: 300px; }
+
+input {
+  width: 100px; }
+
+textarea {
+  width: 300px; }
+
+.mb-4, .mb-3 {
+  width: 300px; }
 
 /* Main FAQs */
 section h2 {
@@ -74,13 +93,16 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  color: #7d8380;
+  color: #000000;
   height: 1000px; }
 
 .index__grid--container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-self: center; }
+
+.h1__main--index {
+  color: black; }
 
 /* Main Nosotros*/
 .main__bg--nosotros {
@@ -97,7 +119,7 @@ li {
   text-align: center;
   color: black;
   width: 400px;
-  color: #2a2b28; }
+  color: #000000; }
 
 .h1__main--nosotros {
   text-align: center;
@@ -108,6 +130,10 @@ li {
   flex-direction: column;
   align-items: center;
   gap: 30px; }
+
+.img__nosotros:hover {
+  transform: scale(1.3);
+  transition: 1.0s; }
 
 /* Main Productos*/
 main {
@@ -136,7 +162,7 @@ main {
 
 .main__productos--h1 {
   text-align: center;
-  color: #7d8380; }
+  color: #000000; }
 
 .main__productos--camisa {
   text-align: center;

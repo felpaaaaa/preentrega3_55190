@@ -1,5 +1,14 @@
 p{
-    color: rgb(255, 255, 255) ;
+    color: #7d8380;
+    }
+    input{
+        width: 100px;
+    }
+    textarea{
+        width: 300px;
+    }
+    label{
+        width: 300px;
     }
     
 .main__contacto {
@@ -8,6 +17,18 @@ p{
     height: 100vh;
 }
 
-.mb-3 , .mb-4 {
-    color: rgb(255, 255, 255);
+label{
+    width: 300px;
+}
+
+input{
+    width: 100px;
+}
+
+textarea{
+    width: 300px;
+}
+
+.mb-4 , .mb-3{
+    width: 300px;
 }
