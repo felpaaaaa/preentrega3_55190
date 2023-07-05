@@ -22,3 +22,27 @@ main{
         }
     }
 }
+
+.main__productos--bg {
+    background-image: linear-gradient(to right bottom, #d8dce3, #9f9fa4, #69676a, #363435, #000000);
+}
+
+.grid__container--productos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    justify-items: center;
+}
+
+.main__productos--h1{
+    text-align: center;
+    color: #7d8380;
+}
+.main__productos--camisa {
+    text-align: center;
+    width: 600px;
+}
+
+.img__productos--camisa{
+    height: 900px;
+    width: 600px;
+}

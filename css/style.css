@@ -7,6 +7,9 @@
 /* Typo */
 /* Header */
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   overflow-x: hidden; }
   body header nav {
     background-image: linear-gradient(to left, #727478, #8c9498, #a7b6b5, #c9d7cf, #f3f8e9); }
@@ -70,7 +73,8 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  color: #7d8380; }
+  color: #7d8380;
+  height: 1000px; }
 
 .index__grid--container {
   display: grid;
@@ -83,31 +87,25 @@ li {
   height: 80vh; }
 
 .img__nosotros {
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 400px;
   border-radius: 50% 50% 0px 50%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; }
 
 .p__main--nosotros {
+  text-align: center;
   color: black;
   width: 400px;
-  color: #aeec38;
-  background-image: -webkit-linear-gradient(0deg, #aeec38 80%, #24ca19 79%, #94c353 74%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  color: #2a2b28; }
 
 .h1__main--nosotros {
   text-align: center;
-  color: #aeec38;
-  background-image: -webkit-linear-gradient(0deg, #aeec38 80%, #24ca19 79%, #94c353 74%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  color: #0d0e0c; }
 
 .flex__container--main {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  align-items: center; }
 
 /* Main Productos*/
 main {
@@ -126,7 +124,47 @@ main {
           height: 900px;
           width: 600px; }
 
+.main__productos--bg {
+  background-image: linear-gradient(to right bottom, #d8dce3, #9f9fa4, #69676a, #363435, #000000); }
+
+.grid__container--productos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center; }
+
+.main__productos--h1 {
+  text-align: center;
+  color: #7d8380; }
+
+.main__productos--camisa {
+  text-align: center;
+  width: 600px; }
+
+.img__productos--camisa {
+  height: 900px;
+  width: 600px; }
+
 /* Media Queries*/
+@media (max-width: 768px), (max-width: 1023px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: center; }
+  .footer__index {
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+    justify-content: center; } }
+
+@media (max-width: 465px) {
+  .main__faq .h2__faq {
+    font-size: 18px; }
+  .main__faq .h3__faq {
+    font-size: 13px; } }
+
+@media (max-width: 600px) {
+  iframe {
+    width: 100%; } }
+
 /* Footer */
 div p {
   margin-right: 10px;
@@ -143,8 +181,6 @@ div p {
   background-image: linear-gradient(to right, #b5b9c0, #bac8cf, #c1d8d7, #d1e6da, #ebf2db);
   background-repeat: repeat;
   background-size: contain;
-  position: absolute;
-  bottom: 0;
   width: 100%; }
 
 .p__footer {
