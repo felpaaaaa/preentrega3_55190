@@ -1,8 +1,9 @@
 main{
-    background-image: linear-gradient(to right bottom, #d8dce3, #9f9fa4, #69676a, #363435, #000000);
+    background-image: $color-terciario;
     h1{
+        font-family: $tipografia-general;
         text-align: center;
-        color: #7d8380;
+        color: #000000;
         div{
             display: grid;
             grid-template-columns: repeat(3, 1fr) ;
@@ -11,7 +12,9 @@ main{
                 text-align: center;
                 width: 600px;
                 h2{
+                    font-family: $tipografia-secundaria;
                 h3{
+                    font-family: $tipografia-secundaria;
                 img{
                     height: 900px;
                     width: 600px;
@@ -24,7 +27,7 @@ main{
 }
 
 .main__productos--bg {
-    background-image: linear-gradient(to right bottom, #d8dce3, #9f9fa4, #69676a, #363435, #000000);
+    background-image: $color-terciario;
 }
 
 .grid__container--productos{

@@ -1,5 +1,5 @@
 .main__bg--nosotros {
-    background-image: linear-gradient(to right bottom, #d8dce3, #9f9fa4, #69676a, #363435, #000000);
+    background-image: $color-terciario;
     height: 80vh;
 }
 
@@ -18,15 +18,16 @@
 }
 
 .h1__main--nosotros {
+    font-family: $tipografia-general;
     text-align: center;
-    color: #0d0e0c;
+    color: #0a0a0a;
 }
 
 .flex__container--main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: $espaciado;
 }
 
 .img__nosotros:hover{

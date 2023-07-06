@@ -1,0 +1,10 @@
+@mixin borde-redondeado($radio) {
+    border-radius: $radio;
+    -webkit-border-radius: $radio;
+    -moz-border-radius: $radio;
+  }
+  
+  .elemento {
+    @include borde-redondeado(5px);
+    background-color: #00FF00;
+  }

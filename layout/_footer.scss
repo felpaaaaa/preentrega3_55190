@@ -1,5 +1,6 @@
     div{
         p{
+        font-family: $tipografia-secundaria;
         margin-right: 10px;
         margin-bottom: 40px;
         color: rgb(0, 0, 0);
@@ -13,7 +14,7 @@
     justify-content: space-between;
     gap: 15px;
     height: 100px;
-    background-image: linear-gradient(to right, #b5b9c0, #bac8cf, #c1d8d7, #d1e6da, #ebf2db);
+    background-image: $color-secundario;
     background-repeat: repeat;
     background-size: contain;
     width: 100%;

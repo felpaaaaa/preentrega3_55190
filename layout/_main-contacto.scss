@@ -1,34 +1,19 @@
 p{
-    color: #7d8380;
+    font-family: $tipografia-secundaria;
+    color: #000000;
     }
-    input{
-        width: 100px;
-    }
-    textarea{
-        width: 300px;
-    }
-    label{
-        width: 300px;
-    }
-    
+
 .main__contacto {
     background-image: url("../images/remera.jpg");
     background-size: cover;
     height: 100vh;
 }
 
-label{
-    width: 300px;
-}
-
-input{
-    width: 100px;
-}
-
-textarea{
-    width: 300px;
-}
-
 .mb-4 , .mb-3{
     width: 300px;
+}
+
+h1{
+    font-family: $tipografia-general;
+    color: black;
 }

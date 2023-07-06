@@ -1,12 +1,12 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $tipografia-general;
     display: flex;
     flex-direction: column;
     min-height: 100%;
     overflow-x: hidden;
     header{
         nav{
-            background-image: linear-gradient(to left, #727478, #8c9498, #a7b6b5, #c9d7cf, #f3f8e9);
+            background-image: $color-primario;
             div{
                 div{
                     img{
