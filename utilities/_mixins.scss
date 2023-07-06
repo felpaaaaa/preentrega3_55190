@@ -1,10 +1,12 @@
-@mixin borde-redondeado($radio) {
-    border-radius: $radio;
-    -webkit-border-radius: $radio;
-    -moz-border-radius: $radio;
-  }
-  
-  .elemento {
-    @include borde-redondeado(5px);
-    background-color: #00FF00;
-  }
+@mixin flexbox($direction, $justify-content, $align-items) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin grid ($columnas , $justify-self) {
+    display: grid;
+    grid-template-columns: repeat($columnas , 1fr);
+    justify-self: $justify-self
+}  

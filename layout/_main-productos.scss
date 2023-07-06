@@ -40,7 +40,7 @@ main{
     text-align: center;
     color: #000000;
 }
-.main__productos--camisa {
+.main__productos--camisa{
     text-align: center;
     width: 600px;
 }
@@ -48,4 +48,8 @@ main{
 .img__productos--camisa{
     height: 900px;
     width: 600px;
+}
+
+.grid__container--productos{
+    @include grid ( 3 , center )
 }

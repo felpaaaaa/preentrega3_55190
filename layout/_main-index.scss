@@ -16,14 +16,11 @@ li{
     height: 1000px  ;
 }
 
-.index__grid--container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-self: center;
-}
-
 .h1__main--index{
     font-family: $tipografia-general;
     color: black;
 }
 
+.index__grid--container{
+    @include grid ( 3 , center )
+}
