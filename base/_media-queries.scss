@@ -45,7 +45,7 @@
     }
 }
 
-@media (max-width: 1790px) {
+@media (max-width: 1790px) , (max-width: 1200px) {
     .grid__container--productos{
         display: grid;
         grid-template-rows: repeat(2 , 2fr);
@@ -54,4 +54,24 @@
     }
 }
 
+@media (max-width: 1200px) {
+    .grid__container--productos{
+        display: grid;
+        grid-template-rows: repeat(1 , 3fr);
+        grid-template-columns: repeat(1 , 3fr);
+        justify-items: center;
+    }
+}
 
+@media (max-width: 600px) {
+    .grid__container--productos{
+        display: grid;
+        grid-template-rows: repeat(1 , 3fr);
+        grid-template-columns: repeat(1 , 3fr);
+        justify-items: center;
+    }
+    .img__productos--camisa{
+        height: 100px;
+        width: 100px;
+    }
+}
