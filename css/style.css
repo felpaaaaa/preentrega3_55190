@@ -225,8 +225,11 @@ main {
     grid-template-columns: repeat(1, 3fr);
     justify-items: center; }
   .img__productos--camisa {
-    height: 100px;
-    width: 100px; } }
+    height: 200px;
+    width: 200px; }
+  .main__productos--camisa {
+    text-align: center;
+    width: auto; } }
 
 /* Footer */
 div p {
