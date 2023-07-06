@@ -24,4 +24,24 @@
     }
 }
 
-// @media (max-width: 1914px)
+// @media (max-width: 1440px) , (max-width:) {
+//     .img__main--camisa {
+//         height: 800px;
+//         width: 500px;
+//     }
+//     .index__grid--container{
+//         @include grid ( 3, center)
+//     }
+// }
+
+@media (max-width: 459px) {
+    .p__main--nosotros{
+        width: 250px;
+        font-size: 10px;
+    }
+    .img__nosotros{
+        width: 300px;
+        height: 300px;
+    }
+}
+
