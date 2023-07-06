@@ -45,3 +45,13 @@
     }
 }
 
+@media (max-width: 1790px) {
+    .grid__container--productos{
+        display: grid;
+        grid-template-rows: repeat(2 , 2fr);
+        grid-template-columns: repeat(2 , 2fr);
+        justify-items: center;
+    }
+}
+
+
